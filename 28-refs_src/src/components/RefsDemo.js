@@ -17,6 +17,7 @@ class RefsDemo extends Component {
   render() {
     return (
       <div>
+        {/* <input type="text"/>  */}
         {/* Second Step: Attach the reference to the input element. */}
         <input type="text" ref={ this.inputRef } /> 
         {/* Third Step: 2) Add element handler for reference. */}
